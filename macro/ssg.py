@@ -63,6 +63,3 @@ class SSGMacro(MacroClass):
         playsound('sound/alarm.mp3')
         time.sleep(10)
         self.driver.close()
-
-
-

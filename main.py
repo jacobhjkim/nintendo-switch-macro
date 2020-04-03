@@ -3,7 +3,8 @@ import json
 from macro.ssg import SSGMacro
 
 if __name__ == "__main__":
-    urls = json.loads('config.json')
+    with open('config.json') as config:
+        urls = json.loads(config.read())
 
     ssg_macro = SSGMacro(website_name='SSG',
                          login_url=urls['SSG']['login_url'],
