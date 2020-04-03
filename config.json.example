@@ -1,0 +1,11 @@
+{
+  "SSG": {
+    "login_url": "https://member.ssg.com/member/login.ssg",
+    "item_url": "http://www.ssg.com/item/itemView.ssg?itemId=1000033168058",
+    "login_id": "YOUR_ID",
+    "login_pw": "YOUR_PW"
+  },
+  "EMART": {
+    "item_url": "http://emart.ssg.com/item/itemView.ssg?itemId=1000042290732"
+  }
+}
