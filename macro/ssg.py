@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from macro_class import MacroClass
+from macro.macro_class import MacroClass
 
 
 WAIT_TIME = 1000
@@ -60,7 +60,7 @@ class SSGMacro(MacroClass):
                 break
             self.driver.get(self.item_url)
         print(f'{self.item_url}')
-        playsound('alarm.mp3')
+        playsound('sound/alarm.mp3')
         time.sleep(10)
         self.driver.close()
 

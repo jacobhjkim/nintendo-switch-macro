@@ -1,6 +1,6 @@
 import json
 
-from ssg import SSGMacro
+from macro.ssg import SSGMacro
 
 if __name__ == "__main__":
     urls = json.loads('config.json')
